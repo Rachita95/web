@@ -39,8 +39,6 @@
 
 
 <form class="form-horizontal">
-
-
     <h1 id="heading">Contact Us</h1>
     <div clas="row">
         <div class="col-md-12">

@@ -18,17 +18,17 @@ class StaticController extends Controller
 
     public function terms_and_conditions()
     {
-        return view('');
+        return view('terms');
     }
 
     public function privacy_policy()
     {
-        return view('');
+        return view('privacy');
     }
 
     public function refund_policy()
     {
-        return view('');
+        return view('refund');
     }
 
     public function frequently_asked_questions()
@@ -38,7 +38,7 @@ class StaticController extends Controller
 
     public function careers()
     {
-        return view('');
+        return view('careers');
     }
 
 
