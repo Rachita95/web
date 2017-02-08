@@ -17,7 +17,13 @@
 
     <style>
         .main{
+<<<<<<< HEAD
             padding: 20px;
+=======
+            padding: 40px;
+            padding-top: 25px;
+            width: 800px;
+>>>>>>> b3996b8d3f5035234a66ef219d7f5af25e232f93
             background-color: #ffffff;
             margin: 20px 20px 20px 50px;
         }
@@ -58,6 +64,7 @@
         }
         .row a:link {color: #FFFFFF
         }
+
     </style>
 
     @yield('head')
@@ -102,6 +109,7 @@
 
 @yield('content-header')
 
+<<<<<<< HEAD
     <div class="row">
         <div class="col-md-8">
             <div class="main">
@@ -116,6 +124,11 @@
         </div>
     </div>
 
+=======
+<div class="main">
+@yield('content')
+</div>
+>>>>>>> b3996b8d3f5035234a66ef219d7f5af25e232f93
 @yield('contact')
 
 <footer>

@@ -1,2 +1,15 @@
 @extends('welcome')
+@section('content-header')
+    <h2 style="margin-top: 80px; margin-left:30px; margin-bottom: 30px; color: #2a88bd;">Terms and Conditions</h2>
+    @stop
 @section('content')
+<p>
+    Please read the Terms Of Use thoroughly and carefully. The terms and conditions set forth below ("Terms of Use") and the Privacy Policy (as defined below) constitute a legally-binding agreement between Yourkamaan Legal Solutions Pvt Ltd (www.expertily.com) and you. These Terms of Use contain provisions that define your limits, legal rights and obligations with respect to your use of and participation in the expertily.com, including the classified advertisements, forums, various email functions and internet links, and all content and Expertily’s services available through the domain and sub-domains of Expertily’s located at www.expertily.com (collectively referred to herein as the “Website" or “Expertily”), andthe online transactions between those Professional(s) on the Website who are offering services and those users of the Website who are obtaining services, through the Website. The Terms of Use described below incorporate the Privacy Policy and apply to all users of the Website, including users who are also contributors of written / video content, information, private and public messages, advertisements, and other materials or services on the Website.
+</p>
+<p>The Website is currently owned and operated by Yourkamaan Legal Solutions Pvt. Ltd. You acknowledge that the Website serves as a platform where the general public (Users) have been given the facility to ask for free Legal/Financial advice from the listed Professional(s) on the website, as well as users are provided with the facility to ask for paid consultations with their choice of Professional(s) available on the website, and by clicking on "I have read and agree to the terms of use," you hereby certify thatyou are either a Professional or a prospective service User, you have the authority to enter into these Terms of Use, you authorise the transfer of payment for services requested through the use of the Website, and you agree to be bound by all terms and conditions of these Terms of Use and any other documents incorporated by reference herein. If you do not agree to any of the provisions set forth in the Terms of Use, kindly discontinue viewing or participating in this Website immediately.</p>
+<p><b>YOU SPECIFICALLY AGREE THAT BY USING THE WEBSITE, YOU ARE AT LEAST 18 YEARS OF AGE AND YOU ARE COMPETENT UNDER LAW TO ENTER INTO A LEGALLY BINDING AND ENFORCEABLE CONTRACT.</b></p>
+<p>All references to "you" or "your," as applicable, mean the person that accesses, uses, and/or participates in the Website in any manner. If you use the Website or open an Account (as defined below) on behalf of a business, you represent and warrant that you have the authority to bind that business and your acceptance of the Terms of Use will be deemed an acceptance by that business and "you" and "your" herein shall refer to that business.
+
+</p>
+
+@stop
