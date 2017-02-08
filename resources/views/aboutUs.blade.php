@@ -1,6 +1,9 @@
 @extends('welcome')
-@section('content')
+@section('content-header')
     <h2 style="margin-top: 80px; margin-left:30px; margin-bottom: 30px; color: #2a88bd;">About Us</h2>
+@stop
+
+@section('content')
     <div class="about">
     <h3 >What Do We Do?</h3>
     <p>We are here to make sure that you find the right Lawyer near you. We ensure that all our Lawyers undergo a verification check. This helps us in providing only the best quality of Lawyers to you.</p>
@@ -15,12 +18,5 @@
     <p>The work is distributed between the customer support, operations and legal team. We collaborate with Lawyers to ensure that all your issues are answered within minimal time.</p>
     </div>
 
-    <style>
-        .about{
-            padding: 20px;
-            width: 800px;
-            background-color: #ffffff;
-            margin-left: 30px;
-        }
-    </style>
-    @endsection
+
+@stop

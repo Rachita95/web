@@ -15,6 +15,13 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style>
+        .main{
+            padding: 20px;
+            width: 800px;
+            background-color: #ffffff;
+            margin-left: 30px;
+        }
+
         .navbar-brand{
             padding-top: 0px;
             margin-right: 400px;
@@ -87,7 +94,11 @@
     <!-- /.container-fluid -->
 </nav>
 
+@yield('content-header')
+<div class="main">
 @yield('content')
+</div>
+@yield('contact')
 
 <footer>
     <hr>

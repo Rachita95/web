@@ -1,5 +1,5 @@
 @extends('welcome')
-@section('content')
+@section('contact')
   <style>
         form{
             width: 1000px;
