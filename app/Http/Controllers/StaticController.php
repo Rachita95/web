@@ -33,7 +33,7 @@ class StaticController extends Controller
 
     public function frequently_asked_questions()
     {
-        return view('');
+        return view('FAQ');
     }
 
     public function careers()
