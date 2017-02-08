@@ -14,14 +14,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <style>
         .main{
             padding: 20px;
-            width: 800px;
             background-color: #ffffff;
-            margin-left: 30px;
+            margin: 20px 20px 20px 50px;
         }
 
+        .right_nav{
+            background-color: #ffffff;
+            margin: 20px 50px 20px 20px;
+
+        }
         .navbar-brand{
             padding-top: 0px;
             margin-right: 550px;
@@ -40,6 +45,7 @@
         }
     </style>
 
+    @yield('head')
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -84,9 +90,21 @@
 </nav>
 
 @yield('content-header')
-<div class="main">
-@yield('content')
-</div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="main">
+                @yield('content')
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="right_nav">
+                <h2>Ask Question</h2>
+                @yield('right-nav')
+            </div>
+        </div>
+    </div>
+
 @yield('contact')
 
 <footer>
