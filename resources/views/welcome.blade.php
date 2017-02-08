@@ -17,19 +17,34 @@
     <style>
         .navbar-brand{
             padding-top: 0px;
-            margin-right: 550px;
-            padding-left: 80px;
+            margin-right: 400px;
+            padding-left: 12%;
         }
         nav{
            height: 60px;
-            font-size: 18px;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #ffffff;
         }
         footer{
             background-color: #343538;
             color: #f5f8fa;
+            height: 500px;
         }
         body{
             background-color: #afd9ee;
+        }
+        .list{
+            list-style: none;
+            text-align: left;
+            text-color:#ffffff;
+        }
+        .heading {
+            text-align: left;
+            margin-left: 40px;
+        }
+        .row a:link {color: #FFFFFF
         }
     </style>
 
@@ -57,18 +72,14 @@
                 <li><a href="#">Find a Lawyer</a></li>
                 <li><a href="/about">How it works</a></li>
                 <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/contact">Services</a></li>
+
+
             </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
+            <ul class="nav navbar-nav navbar-right" style="margin-right: 5%">
+                <li style="margin-top: 17%;"><i class="fa fa-sign-in" aria-hidden="true"></i></li>
+                <li><a href="/login">Log In</a></li>
+
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -81,27 +92,49 @@
 <footer>
     <hr>
     <div class="container text-center">
-        <h3>Subscribe for more free stuff</h3>
-        <p>Enter your name and email</p>
+        <p style="text-align: left; margin-top: 20px; margin-left: 20px; margin-bottom: 40px;">The information provided on Expertily.com must not be treated as legal advise. Expertily.com is not an advertising service for Lawyers. Your use of this website is as per our <a href="#">Terms and Conditions</a></p>
+        <div class="row">
+        <div class="col-md-3">
+            <h3 class="heading">Know More</h3>
+            <ul class="list">
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/terms">Terms and Conditions</a></li>
+                <li><a href="/privacy">Our Privacy Policy</a></li>
+                <li><a href="/refund">Our Refund Policy</a></li>
+            </ul>
+        </div>
 
-        <form action="" class="form-inline">
-            <div class="form-group">
-                <label for="subscription">Subscribe</label>
-                <input type="text" class="form-control" id="subscription" placeholder="Your name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="text" class="form-control" id="email" placeholder="Enter your Email">
-            </div>
-            <button type="submit" class="btn btn-default">Subscribe</button>
+        <div class="col-md-3">
+            <h3 class="heading">Knowlege base</h3>
+            <ul class="list">
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/faq">FAQ</a></li>
+            </ul>
+        </div>
 
-        </form>
+        <div class="col-md-3">
+            <h3 class="heading">Get in Touch</h3>
+            <ul class="list">
+                <li><a href="/lawyer">find a Lawyer</a></li>
+                <li><a href="/question">Ask a Question</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <h3 class="heading">For Professionals</h3>
+            <ul class="list">
+                <li><a href="/clients">Get More Clients</a></li>
+
+            </ul>
+        </div>
+        </div>
 
         <hr>
         <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
         </ul>
 
         <p>&copy; Copyright @ 2017</p>
