@@ -1,0 +1,34 @@
+form{
+  width: 1000px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+#heading{
+  margin-bottom: 30px;
+}
+::-webkit-input-placeholder {
+  font-size: 25px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 25px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 25px;
+}
+
+/* Overriding styles */
+
+::-webkit-input-placeholder {
+  font-size: 13px!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 13px!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 13px!important;
+}

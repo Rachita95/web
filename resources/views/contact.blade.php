@@ -1,43 +1,8 @@
 @extends('welcome')
+@section('head')
+<link rel="stylesheet" href="/css/contact_us.css">
+@stop
 @section('contact')
-  <style>
-        form{
-            width: 1000px;
-            margin: 50px;
-            padding: 50px;
-            background-color: #ffffff;
-            margin-top: 100px;
-        }
-        #heading{
-            margin-bottom: 30px;
-        }
-        ::-webkit-input-placeholder {
-            font-size: 25px;
-        }
-
-        :-moz-placeholder { /* Firefox 18- */
-            font-size: 25px;
-        }
-
-        ::-moz-placeholder {  /* Firefox 19+ */
-            font-size: 25px;
-        }
-
-        /* Overriding styles */
-
-        ::-webkit-input-placeholder {
-            font-size: 13px!important;
-        }
-
-        :-moz-placeholder { /* Firefox 18- */
-            font-size: 13px!important;
-        }
-        ::-moz-placeholder {  /* Firefox 19+ */
-            font-size: 13px!important;
-        }
-    </style>
-
-
 <form class="form-horizontal">
     <h1 id="heading">Contact Us</h1>
     <div clas="row">

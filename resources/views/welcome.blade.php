@@ -14,53 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <style>
-        .main{
-            padding: 20px;
-            background-color: #ffffff;
-            margin: 20px 20px 20px 50px;
-        }
-
-        .right_nav{
-            background-color: #ffffff;
-            margin: 20px 50px 20px 20px;
-
-        }
-        .navbar-brand{
-            padding-top: 0px;
-            margin-right: 400px;
-            padding-left: 12%;
-        }
-        nav{
-           height: 60px;
-            font-size: 13px;
-            font-weight: bold;
-            text-transform: uppercase;
-            background-color: #ffffff;
-        }
-        footer{
-            background-color: #343538;
-            color: #f5f8fa;
-            height: 500px;
-        }
-        body{
-            background-color: #afd9ee;
-        }
-        .list{
-            list-style: none;
-            text-align: left;
-            text-color:#ffffff;
-        }
-        .heading {
-            text-align: left;
-            margin-left: 40px;
-        }
-        .row a:link {color: #FFFFFF
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="/css/master_layout.css">
     @yield('head')
 </head>
 <body>
